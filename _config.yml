@@ -4,7 +4,7 @@ title: Libraries hacked
 tagline: Libraries hacked
 email: info@librarieshacked.org
 description: Libraries hacked
-baseurl: "/librarieshacked"
+baseurl: "/"
 url: "https://www.librarieshacked.org"
 permalink: pretty
 
