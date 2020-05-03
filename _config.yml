@@ -8,7 +8,7 @@ baseurl: "/librarieshacked"
 url: "https://www.librarieshacked.org"
 permalink: pretty
 
-gh_sponsor: librarieshacked
+gh_sponsor:
 
 paginate: 5
 paginate_path: "/blog/page:num"
