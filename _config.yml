@@ -50,8 +50,6 @@ defaults:
 markdown: kramdown
 highlighter: rouge
 
-footer_menu: footer_menu
-
 collections:
   products: 
     output: true
