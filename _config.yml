@@ -1,14 +1,14 @@
 remote_theme: chrisrhymes/bulma-clean-theme
 
 title: Libraries hacked
-tagline: Libraries hacked
+tagline: Promoting open data and hacks in libraries
 email: info@librarieshacked.org
-description: Libraries hacked
+description: Promoting open data and hacks in libraries
 baseurl: "/"
 url: "https://www.librarieshacked.org"
 permalink: pretty
 
-gh_sponsor:
+gh_sponsor: davebathnes
 
 paginate: 5
 paginate_path: "/blog/page:num"
@@ -21,8 +21,7 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-seo-tag
-  - kramdown
-  - rouge
+  - kramdown-parser-gfm
 
 exclude: 
   - Gemfile
@@ -51,7 +50,7 @@ defaults:
 markdown: kramdown
 highlighter: rouge
 
-footer_menu: example_footer_menu
+footer_menu: footer_menu
 
 collections:
   products: 
