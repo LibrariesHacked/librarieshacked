@@ -4,17 +4,18 @@ items:
   - title: Library lab
     icon: fa-space-shuttle
     description: >
-      Prototype digital applications
+      Prototype digital library applications
     call_to_action_name: Call to library lab
-    call_to_action_link: https://wwww.librarylab.uk
+    call_to_action_link: https://www.librarylab.uk
   - title: Library data
-    icon: fa-wrench
+    icon: fa-cubes
     description: >
       Data portal for UK public library data
     call_to_action_name: Go to library data
-    call_to_action_link: https://wwww.librarydata.uk
+    call_to_action_link: https://www.librarydata.uk
   - title: On GitHub
     icon: fa-github
+    icon_brand: true
     description: >
       All libraries hacked repositories as open source
     call_to_action_name: Explore repositories
