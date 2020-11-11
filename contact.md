@@ -2,9 +2,9 @@
 title: Contact
 subtitle: Get in touch
 layout: page
-callouts: 
 show_sidebar: false
 hide_hero: true
+hide_footer: true
 ---
 
 Please feel free to get in contact using one of the following contact methods.
