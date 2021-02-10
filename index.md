@@ -1,6 +1,6 @@
 ---
 title: Libraries hacked
-subtitle: Promoting open library data and library hacks
+subtitle: Promoting open data in libraries and creating digital prototypes from that data
 layout: page
 callouts: callouts
 show_sidebar: false
