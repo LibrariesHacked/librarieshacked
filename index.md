@@ -5,7 +5,7 @@ layout: page
 callouts: callouts
 show_sidebar: false
 hide_footer: true
-hero_link_text: Read the library data blog
+hero_link_text: Library data blog and contact details
 hero_link: https://blog.librarydata.uk
 hero_image: /assets/images/hero.png
 ---
