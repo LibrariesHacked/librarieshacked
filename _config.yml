@@ -26,7 +26,7 @@ baseurl: ""
 title: "Libraries Hacked"
 description: "Promoting open data and digital prototypes in libraries"
 permalink: pretty
-logo: "/assets/images/logo_large.png"
+logo: "/assets/images/logo_small.png"
 
 # Pagination
 paginate: 5

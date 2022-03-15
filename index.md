@@ -1,3 +1,3 @@
 ---
-title: Libraries Hacked
+title: Promoting open data and digital prototypes in libraries
 ---
