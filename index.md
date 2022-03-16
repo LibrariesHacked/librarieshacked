@@ -2,11 +2,7 @@
 title: Home
 ---
 
-{% include button.html text="Library data blog" link="https://blog.librarydata.uk" %}
-
-> Open data is data that anyone can access, use and share.
->
-> **Open Data Institute** [What is open data and why should we care](https://theodi.org/article/what-is-open-data-and-why-should-we-care/)
+> Open data is data that anyone can access, use and share.<br/> **Open Data Institute** [What is open data and why should we care](https://theodi.org/article/what-is-open-data-and-why-should-we-care/)
 
 Publishing library data openly will enable library services to share data practices, become more data-informed in decision making, and enable open applications to be built from that data.
 
