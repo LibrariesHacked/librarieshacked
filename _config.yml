@@ -38,8 +38,6 @@ navigation_header:
     url: /
   - title: About
     url: /about/
-  - title: History
-    url: /history/
 
 # Collection settings
 defaults:
