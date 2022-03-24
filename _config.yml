@@ -23,7 +23,7 @@ plugins:
 twitter:
   username: librarieshacked
 author: DaveBathnes
-social
+social:
   name: Libraries Hacked
   links:
     - https://twitter.com/librarieshacked
@@ -61,8 +61,8 @@ defaults:
       layout: page # Set the default layout for pages
 
 navigation_footer:
-- title: Created by Libraries Hacked
-  url: https://www.librarieshacked.org
+  - title: Created by Libraries Hacked
+    url: https://www.librarieshacked.org
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/LibrariesHacked
