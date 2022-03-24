@@ -83,4 +83,4 @@ fonts:
   preconnect_urls:
     - https://fonts.gstatic.com
   font_urls:
-    - https://fonts.googleapis.com/css2?family=Roboto:400,400i,700,700i&display=swap
+    - https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap
