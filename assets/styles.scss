@@ -9,7 +9,7 @@ $featureBackgroundColour: #f9fafa !default;
 $accentColour: #2196f3 !default;
 
 // Text colours
-$headingColour: #37474f !default;
+$headingColour: #f9fafa !default;
 $bodyColour: #455a64 !default;
 $linkColour: #2196f3 !default;
 $hoverColour: #1976d2 !default;
@@ -23,24 +23,24 @@ $white: #ffffff !default;
 
 // Typography
 $bodytype: (
-  font-family: "Roboto, serif",
+  font-family: 'Roboto, serif',
   regular: 400,
   bold: 700,
   italic: italic,
-  cap-height: 0.75,
+  cap-height: 0.75
 ) !default;
 
 $headingtype: (
   font-family: '"Roboto", serif',
   regular: 400,
   bold: 700,
-  cap-height: 0.75,
+  cap-height: 0.75
 ) !default;
 
 $monospacetype: (
-  font-family: "Menlo, monospace",
+  font-family: 'Menlo, monospace',
   regular: 400,
-  cap-height: 0.68,
+  cap-height: 0.68
 ) !default;
 
-@import "alembic";
+@import 'alembic';
