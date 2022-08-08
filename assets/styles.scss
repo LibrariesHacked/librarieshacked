@@ -52,6 +52,7 @@ table {
   margin: 25px 0 30px 0;
   line-height: 1.3 !important;
   border: 2px solid $focusColour;
+  padding-bottom: 16px;
 }
 
 table thead tr {
@@ -71,5 +72,14 @@ table tbody tr {
 }
 
 table tbody tr:nth-of-type(even) {
-  background-color: #e5e5e5;
+  background-color: $codeBackgroundColour;
+}
+
+// Blockquotes
+blockquote {
+  background-color: $codeBackgroundColour;
+  
+  p a {
+    text-shadow: none;
+  }
 }
