@@ -4,7 +4,7 @@ Public website for Libraries Hacked. Built using a Jekyll theme and GitHub pages
 
 ## Deployment
 
-Deployed using GitHub pages. Github should automatically deploy and build the site. The site is built with a remote Jekyll theme.
+Deployed using GitHub pages. Github should automatically deploy and build the site.
 
 ## Built With
 
@@ -14,8 +14,6 @@ Deployed using GitHub pages. Github should automatically deploy and build the si
 ## Authors
 
 * **Dave Rowe** - *Writer* - [DaveBathnes](https://github.com/DaveBathnes)
-
-See also the list of [contributors](https://github.com/librarieshacked/librarieshacked/contributors) who participated in this project.
 
 ## Licence
 
