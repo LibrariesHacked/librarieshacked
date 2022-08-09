@@ -2,7 +2,7 @@
 title: About
 ---
 
-Libraries Hacked is a project founded in 2014 to promote the use of open data in libraries. That includes helping libraries publish data about themselves, as well as using library open data alongside other open datasets. The goal is to make interesting and useful software tools that can be used by library services and the public.
+Libraries Hacked is a project to promote the use of open data in libraries. That includes helping libraries publish data about themselves, as well as using library open data alongside other open datasets. The goal is to make interesting and useful software tools that can be used by library services and the public.
 
 Feel free to get in contact using by emailing [info@librarieshacked.org](mailto:info@librarieshacked.org), or message [@librarieshacked](https://twitter.com/librarieshacked) on twitter.
 
