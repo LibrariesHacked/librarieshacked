@@ -6,12 +6,12 @@ Libraries Hacked was founded by Dave in 2014. The following are some of the proj
 
 ### Flagship projects
 
-Bigger projects, usually with their own domain name (website) and more regular maintenance.
+Bigger projects, usually with their own website name and more regular maintenance.
 
 | Year | Project | Description |
 | --- | --- | --- |
 | 2014 | [Data blog](https://blog.librarydata.uk) | A place for regular blog posts about library data and digital prototypes |
-| 2019 | [Mobile libraries](https://www.mobilelibraries.co.uk/) | A data schema for mobile library timetables and website to display times and routes of stops across the UK |
+| 2019 | [Mobile libraries](https://www.mobilelibraries.co.uk/) | A data schema for mobile library timetables displaying times and routes of stops across the UK |
 | 2019 | [Create](https://create.librarydata.uk) | Tools for creating, publishing and using public library open data |
 | 2020 | [Libraries at home](https://www.librariesathome.co.uk/) | A library service postcode lookup service and aggregator of online content such as videos, blog posts, and podcasts |
 | 2020 | [Library map](https://www.librarymap.co.uk/) | A library map and postcode lookup service displaying library building information, opening hours, and location analysis |
@@ -27,6 +27,8 @@ Various hacks created using library data.
 | Year | Project | Description |
 | --- | --- | --- |
 | 2016 | [Wuthering hacks](https://newcastle.librarydata.uk/) | A data dashboard for presenting Newcastle libraries open data |
+| 2018 | [World library data](https://ifla.librarydata.uk/) | Displaying the IFLA Library map data in a tabular form |
+| 2018 | [Disbumptors](https://disbumptors.librarydata.uk/) | A twitter list of library disruptors displaying latest tweets and what they're talking about|
 
 
 ### Other collaborations
