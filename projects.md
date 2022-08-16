@@ -28,7 +28,7 @@ Various hacks created using library data.
 | --- | --- | --- |
 | 2016 | [Wuthering hacks](https://newcastle.librarydata.uk/) | A data dashboard for presenting Newcastle libraries open data |
 | 2018 | [World library data](https://ifla.librarydata.uk/) | Displaying the IFLA Library map data in a tabular form |
-| 2018 | [Disbumptors](https://disbumptors.librarydata.uk/) | A twitter list of library disruptors displaying latest tweets and what they're talking about|
+| 2018 | [Disrupters](https://disbumptors.librarydata.uk/) | A twitter list of library disruptors displaying latest tweets and what they're talking about|
 
 
 ### Other collaborations
@@ -37,6 +37,9 @@ External blog posts and other things with Libraries Hacked involvement.
 
 | Year | Project | Description |
 | --- | --- | --- |
+
+| 2017 | [Voyage of the Data Treader](https://voyage.datatreaders.co.uk/) | Library data unconferences organised with Claire from Plymouth Libraries and Aude from Newcastle libraries. Held in 2017 at Liverpool Central Library and 2019 at Manchester Central Library) |
+| 2018 | [Libraries on Twitter](https://twitter.librarydata.uk/) | Displaying latest tweets from various library account lists, all compiled by [Library Cactus](https://twitter.com/SarahHLib/lists) on Twitter |
 | 2019 | Sector - [Library data schemas](https://schema.librarydata.uk) | A DCMS led public library sector project to design schemas for open library data |
 | 2021 | DCMS Blog - [Libraries and High Streets](https://dcmslibraries.blog.gov.uk/2021/05/20/libraries-and-high-streets/) | A blog about libraries and high streets which links to Libraries Hacked work |
 | 2022 | Frictionless data - [Libraries Hacked](https://frictionlessdata.io/blog/2022/02/07/libraries-hacked/) | A post written for the Frictionless Data project (from the Open Knowledge Foundation) about library data schemas. |
