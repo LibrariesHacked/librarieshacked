@@ -37,7 +37,6 @@ External blog posts and other things with Libraries Hacked involvement.
 
 | Year | Project | Description |
 | --- | --- | --- |
-
 | 2017 | [Voyage of the Data Treader](https://voyage.datatreaders.co.uk/) | Library data unconferences organised with Claire from Plymouth Libraries and Aude from Newcastle libraries. Held in 2017 at Liverpool Central Library and 2019 at Manchester Central Library) |
 | 2018 | [Libraries on Twitter](https://twitter.librarydata.uk/) | Displaying latest tweets from various library account lists, all compiled by [Library Cactus](https://twitter.com/SarahHLib/lists) on Twitter |
 | 2019 | Sector - [Library data schemas](https://schema.librarydata.uk) | A DCMS led public library sector project to design schemas for open library data |
