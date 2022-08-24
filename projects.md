@@ -11,7 +11,7 @@ Bigger projects, usually with their own website name and more regular maintenanc
 | Year | Project | Description |
 | --- | --- | --- |
 | 2014 | [Data blog](https://blog.librarydata.uk) | A place for regular blog posts about library data and digital prototypes |
-| 2019 | [Mobile libraries](https://www.mobilelibraries.co.uk/) | A data schema for mobile library timetables displaying times and routes of stops across the UK |
+| 2019 | [Mobile libraries](https://www.mobilelibraries.co.uk/) | Displaying times and routes of stops of mobile libraries across the UK |
 | 2019 | [Create](https://create.librarydata.uk) | Tools for creating, publishing and using public library open data |
 | 2020 | [Libraries at home](https://www.librariesathome.co.uk/) | A library service postcode lookup service and aggregator of online content such as videos, blog posts, and podcasts |
 | 2020 | [Library map](https://www.librarymap.co.uk/) | A library map and postcode lookup service displaying library building information, opening hours, and location analysis |
@@ -39,6 +39,6 @@ External blog posts and other things with Libraries Hacked involvement.
 | --- | --- | --- |
 | 2017 | [Voyage of the Data Treader](https://voyage.datatreaders.co.uk/) | Library data unconferences organised with Claire from Plymouth Libraries and Aude from Newcastle libraries. Held in 2017 at Liverpool Central Library and 2019 at Manchester Central Library) |
 | 2018 | [Libraries on Twitter](https://twitter.librarydata.uk/) | Displaying latest tweets from various library account lists, all compiled by [Library Cactus](https://twitter.com/SarahHLib/lists) on Twitter |
-| 2019 | Sector - [Library data schemas](https://schema.librarydata.uk) | A DCMS led public library sector project to design schemas for open library data |
-| 2021 | DCMS Blog - [Libraries and High Streets](https://dcmslibraries.blog.gov.uk/2021/05/20/libraries-and-high-streets/) | A blog about libraries and high streets which links to Libraries Hacked work |
-| 2022 | Frictionless data - [Libraries Hacked](https://frictionlessdata.io/blog/2022/02/07/libraries-hacked/) | A post written for the Frictionless Data project (from the Open Knowledge Foundation) about library data schemas. |
+| 2019 | [Library data schemas](https://schema.librarydata.uk) | A sector led and DCMS hosted public library sector project to design schemas for open library data |
+| 2021 | [Libraries and High Streets](https://dcmslibraries.blog.gov.uk/2021/05/20/libraries-and-high-streets/) | A DCMS blog about libraries and high streets which links to Libraries Hacked work |
+| 2022 | [Frictionless Data - Libraries Hacked](https://frictionlessdata.io/blog/2022/02/07/libraries-hacked/) | A post written for the Frictionless Data project (from the Open Knowledge Foundation) about library data schemas. |
