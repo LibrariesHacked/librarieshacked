@@ -16,7 +16,7 @@ Bigger projects, usually with their own website name and more regular maintenanc
 | 2020 | [Libraries at home](https://www.librariesathome.co.uk/) | A library service postcode lookup service and aggregator of online content such as videos, blog posts, and podcasts |
 | 2020 | [Library map](https://www.librarymap.co.uk/) | A library map and postcode lookup service displaying library building information, opening hours, and location analysis |
 | 2020 | [Library lab](https://www.librarylab.uk/) | Documentation site for library prototypes and ideas |
-| 2021 | [Library books](https://librarybooks.uk/) | Providing a tool to search the catalogues of all UK library services by ISBN |
+| 2021 | [Library books](https://librarybooks.uk/) | A tool to search the catalogues of all UK library services by ISBN |
 | 2022 | [Fine free libraries](https://www.finefreelibraries.uk/) | A website to track and promote libraries going fine-free in the UK |
 
 
@@ -37,7 +37,7 @@ External blog posts and other things with Libraries Hacked involvement.
 
 | Year | Project | Description |
 | --- | --- | --- |
-| 2017 | [Voyage of the Data Treader](https://voyage.datatreaders.co.uk/) | Library data unconferences organised with Claire from Plymouth Libraries and Aude from Newcastle libraries. Held in 2017 at Liverpool Central Library and 2019 at Manchester Central Library) |
+| 2017 | [Voyage of the Data Treader](https://voyage.datatreaders.co.uk/) | Library data unconferences organised with Claire from Plymouth and Aude from Newcastle library services. Held in 2017 at Liverpool Library and 2019 at Manchester Library |
 | 2018 | [Libraries on Twitter](https://twitter.librarydata.uk/) | Displaying latest tweets from various library account lists, all compiled by [Library Cactus](https://twitter.com/SarahHLib/lists) on Twitter |
 | 2019 | [Library data schemas](https://schema.librarydata.uk) | A sector led and DCMS hosted public library sector project to design schemas for open library data |
 | 2021 | [Libraries and High Streets](https://dcmslibraries.blog.gov.uk/2021/05/20/libraries-and-high-streets/) | A DCMS blog about libraries and high streets which links to Libraries Hacked work |
