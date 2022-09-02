@@ -2,20 +2,20 @@
 title: History
 ---
 
-Libraries Hacked was founded by Dave in 2014. The following are some of the projects.
+Libraries Hacked was founded by Dave in 2014.
 
 ### Flagship projects
 
-Bigger projects, usually with their own website name and more regular maintenance.
+These are bigger projects, usually with their own website name and more regular maintenance.
 
 | Year | Project | Description |
 | --- | --- | --- |
 | 2014 | [Data blog](https://blog.librarydata.uk) | A place for regular blog posts about library data and digital prototypes |
-| 2019 | [Mobile libraries](https://www.mobilelibraries.co.uk/) | Displaying times and routes of stops of mobile libraries across the UK |
+| 2019 | [Mobile libraries](https://www.mobilelibraries.co.uk/) | Displaying times and routes of mobile libraries across the UK |
 | 2019 | [Create](https://create.librarydata.uk) | Tools for creating, publishing and using public library open data |
 | 2020 | [Libraries at home](https://www.librariesathome.co.uk/) | A library service postcode lookup service and aggregator of online content such as videos, blog posts, and podcasts |
 | 2020 | [Library map](https://www.librarymap.co.uk/) | A library map and postcode lookup service displaying library building information, opening hours, and location analysis |
-| 2020 | [Library lab](https://www.librarylab.uk/) | Documentation site for library prototypes and ideas |
+| 2020 | [Library lab](https://www.librarylab.uk/) | Documentation for library prototypes and ideas |
 | 2021 | [Library books](https://librarybooks.uk/) | A tool to search the catalogues of all UK library services by ISBN |
 | 2022 | [Fine free libraries](https://www.finefreelibraries.uk/) | A website to track and promote libraries going fine-free in the UK |
 
@@ -27,8 +27,8 @@ Various hacks created using library data.
 | Year | Project | Description |
 | --- | --- | --- |
 | 2016 | [Wuthering hacks](https://newcastle.librarydata.uk/) | A data dashboard for presenting Newcastle libraries open data |
-| 2018 | [World library data](https://ifla.librarydata.uk/) | Displaying the IFLA Library map data in a tabular form |
-| 2018 | [Disrupters](https://disbumptors.librarydata.uk/) | A twitter list of library disruptors displaying latest tweets and what they're talking about|
+| 2018 | [World library data](https://ifla.librarydata.uk/) | Displaying the IFLA Library map data in a data table |
+| 2018 | [Disrupters](https://disbumptors.librarydata.uk/) | A twitter list of library disruptors displaying latest tweets and what they're talking about |
 
 
 ### Other collaborations
