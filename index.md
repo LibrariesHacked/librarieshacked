@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Libraries Hacked
 ---
 
 Libraries Hacked is a project to promote open data, to help libraries to publish their data, and to showcase projects using open data.
