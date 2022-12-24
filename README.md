@@ -4,7 +4,7 @@ Public website for Libraries Hacked. Built using a Jekyll theme and GitHub pages
 
 ## Deployment
 
-Deployed using GitHub pages. GitHub will automatically deploy and build the site.
+Deployed using GitHub pages. GitHub will automatically deploy and build the site when any changes occur on the main branch.
 
 ## Built With
 
@@ -17,7 +17,7 @@ Deployed using GitHub pages. GitHub will automatically deploy and build the site
 
 ## Licence
 
-Alembic is published under the [MIT Licence](https://github.com/daviddarnes/alembic/blob/main/LICENSE).
+Alembic is published under the [MIT Licence](https://github.com/daviddarnes/alembic/blob/main/LICENSE). If using the theme, please attribute the author and maybe [buy them a coffee](https://buymeacoffee.com/daviddarnes#support).
 
 Any content in the website is published under a [Creative Commons Attribution 4.0 Licence](https://creativecommons.org/licenses/by/4.0/).
 
