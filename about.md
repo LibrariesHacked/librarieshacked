@@ -2,9 +2,9 @@
 title: About
 ---
 
-Libraries Hacked is a project to promote the use of open data in libraries. That includes helping libraries publish data about themselves, as well as showing how library open data can be used alongside other open datasets. The goal is to make interesting software tools that are useful for library services and the public.
+Libraries Hacked is an organisation to promote the use of open data in libraries. That includes helping libraries publish data about themselves, as well as showing how library open data can be used alongside other open datasets. The goal is to make interesting software tools that are useful for library services and the public. These prototype tools and applications are the Library Lab projects, run and maintained by Libraries Hacked. See the [projects](/projects) page for a history.
 
-The project is run by Dave Rowe, a software developer (and library user/ex-library staff member) based in the South West of the UK.
+It is run by Dave Rowe, a software developer (and library user/ex-library staff member) based in the South West of the UK. Many thanks also to the many contributors across the many Library Lab projects.
 
 Feel free to get in contact using by emailing [info@librarieshacked.org](mailto:info@librarieshacked.org), or message [@librarieshacked](https://twitter.com/librarieshacked) on twitter.
 
