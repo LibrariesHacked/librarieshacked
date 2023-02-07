@@ -2,7 +2,7 @@
 title: History
 ---
 
-Libraries Hacked was founded by Dave in 2014. All projects are open source and free to use and adapt. If you have any questions, please [contact](/about).
+Libraries Hacked was founded by Dave in 2014, but throughout that time all projects have received generous contributions in time and effort from many collaborators. All projects are open source and free to use and adapt. If you have any questions, please [get in touch](/about).
 
 ### Flagship projects
 
