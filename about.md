@@ -2,7 +2,7 @@
 title: About
 ---
 
-Libraries Hacked promotes the use of open data in libraries. That includes helping libraries publish data about themselves, as well as showing how library open data can be used alongside other open datasets. The goal is to provide public data that will enable the development of software tools that are useful for library services and the public.
+Libraries Hacked promotes open data in libraries. That includes helping libraries publish data about themselves, as well as showing how library open data can be used alongside other open datasets for insight. The goal is to provide public data that will enable the development of applications that are useful for library services and the public.
 
 Libraries Hacked develop and maintain projects to showcase what is possible. These prototype tools and applications are the Library Lab projects. See the [projects](/projects) page for a history.
 
