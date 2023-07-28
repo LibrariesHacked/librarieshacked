@@ -42,4 +42,4 @@ External blog posts and other things with Libraries Hacked involvement.
 | 2019 | [Library data schemas](https://schema.librarydata.uk) | A sector led and DCMS hosted public library sector project to design schemas for open library data |
 | 2021 | [Libraries and High Streets](https://dcmslibraries.blog.gov.uk/2021/05/20/libraries-and-high-streets/) | A DCMS blog about libraries and high streets which links to Libraries Hacked work |
 | 2022 | [Frictionless Data - Libraries Hacked](https://frictionlessdata.io/blog/2022/02/07/libraries-hacked/) | A post written for the Frictionless Data project (from the Open Knowledge Foundation) about library data schemas. |
-| 2023 | [Missing libraries: towns in England without a public library]([https://frictionlessdata.io/blog/2022/02/07/libraries-hacked/](https://blog.librarydata.uk/missing-libraries) | Research on the towns in England without a library |
+| 2023 | [Missing libraries: towns in England without a public library](https://blog.librarydata.uk/missing-libraries) | Research on the towns in England without a library |
