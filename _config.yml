@@ -20,13 +20,10 @@ plugins:
   - jemoji
   - jekyll-remote-theme
 
-twitter:
-  username: librarieshacked
 author: DaveBathnes
 social:
   name: Libraries Hacked
   links:
-    - https://twitter.com/librarieshacked
     - https://www.instagram.com/librarieshacked
     - https://www.linkedin.com/in/rowedave
     - https://github.com/librarieshacked
@@ -86,3 +83,5 @@ fonts:
     - https://fonts.gstatic.com
   font_urls:
     - https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap
+
+service_worker: false
