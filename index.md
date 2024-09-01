@@ -8,5 +8,4 @@ Libraries Hacked is a project to promote open data, to help libraries publish th
 
 Publishing library open data will enable library services to share data effectively, make more data-informed decision making, and enable innovative applications that help the public and libraries.
 
-{% include button.html text="Projects" link="/projects" color="#e0642c" %}
-{% include button.html text="Library data blog" link="https://blog.librarydata.uk" color="#349bc1" %}
+{% include button.html text="Projects" link="/projects" color="#e0642c" %} {% include button.html text="Library data blog" link="https://blog.librarydata.uk" color="#349bc1" %}
