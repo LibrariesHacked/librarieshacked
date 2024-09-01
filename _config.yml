@@ -29,14 +29,14 @@ social:
     - https://github.com/librarieshacked
 
 # Site settings
-url: 'https://www.librarieshacked.org'
-baseurl: ''
-title: 'Libraries Hacked'
-description: 'Promoting open data and digital prototypes in libraries'
+url: "https://www.librarieshacked.org"
+baseurl: ""
+title: "Libraries Hacked"
+description: "Promoting open data and digital prototypes in libraries"
 permalink: pretty
-logo: '/assets/images/logo_small.png'
-repo: 'https://github.com/davebathnes/librarieshacked'
-email: 'info@librarieshacked.org'
+logo: "/assets/images/logo_small.webp"
+repo: "https://github.com/davebathnes/librarieshacked"
+email: "info@librarieshacked.org"
 
 # Pagination
 paginate: 5
@@ -54,8 +54,8 @@ navigation_header:
 # Collection settings
 defaults:
   - scope:
-      path: ''
-      type: 'pages'
+      path: ""
+      type: "pages"
     values:
       layout: page # Set the default layout for pages
 
@@ -64,14 +64,13 @@ navigation_footer:
     url: https://www.librarieshacked.org
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  Twitter: https://twitter.com/LibrariesHacked
   LinkedIn: https://www.linkedin.com/in/rowedave
   GitHub: https://github.com/librarieshacked
   RSS: https://blog.librarydata.uk/feed.xml
 
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
-  Twitter: '#0d94e7'
-  facebook: '#3B5998'
+  Twitter: "#0d94e7"
+  facebook: "#3B5998"
   Email: true
 
 # Load custom fonts from fonts.google.com etc
