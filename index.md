@@ -8,6 +8,8 @@ Libraries Hacked is a project to promote open data, to help libraries publish th
 >
 > [What is open data and why should we care?](https://theodi.org/article/what-is-open-data-and-why-should-we-care/)
 >
+> ---
+>
 > **Open Data Institute**
 
 Publishing library open data will enable library services to share data effectively, make more data-informed decision making, and enable innovative applications that help the public and libraries.
