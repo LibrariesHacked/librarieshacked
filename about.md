@@ -2,11 +2,13 @@
 title: About
 ---
 
-Libraries Hacked was founded to promote open data in libraries. That includes helping libraries publish their own data, as well as showing how library data can be used alongside with other open datasets. Comprehensive public library data will enable the development of applications that are useful for the public and enhance library services.
+Libraries Hacked was founded in response to the significant lack of open data in public libraries, to promote more open data. That includes helping libraries publish their own data, and showing how library data can be used alongside with other open datasets.
 
-The prototype tools and applications developed and maintained by Libraries Hacked are the Library Lab projects. See the [projects](/projects) page for a history.
+Comprehensive public library data will enable the development of applications that are useful for the public and enhance library services.
 
-The organisation is run by Dave Rowe, a technologist and software developer, library user, and ex-library staff member, in the South West of the UK. Many thanks to the contributors across all the Library Lab projects.
+The prototype tools and applications developed and maintained by Libraries Hacked are also know as Library Lab projects. See the [projects](/projects) page for a history.
+
+The organisation is run by Dave Rowe, a technologist and software developer, library user, and ex-library staff member, in the South West of the UK. Many thanks to the contributors across all the projects.
 
 Feel free to get in contact by emailing [info@librarieshacked.org](mailto:info@librarieshacked.org).
 

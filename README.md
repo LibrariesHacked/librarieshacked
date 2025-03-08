@@ -1,6 +1,6 @@
 # Libraries Hacked
 
-Public website for Libraries Hacked. Built using a Jekyll theme and GitHub pages
+This is the primary public website for Libraries Hacked. Built using a Jekyll theme and GitHub pages
 
 ## Deployment
 
