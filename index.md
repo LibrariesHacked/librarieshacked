@@ -6,13 +6,13 @@ Libraries Hacked is a project to promote open data, to help libraries publish th
 
 > &ldquo;Open data is data that anyone can access, use and share&rdquo;<br/> **Open Data Institute**: [What is open data and why should we care?](https://theodi.org/article/what-is-open-data-and-why-should-we-care/)
 
-Publishing library data openly will ensure library services share data effectively, make better data-informed decisions, and enable innovation that can help the public and libraries.
+Publishing openly licensed library data will ensure library services share data effectively, make better data-informed decisions, and enable innovation that can help the public and libraries.
 
 {% include button.html text="Projects" link="/projects" color="#e0642c" %} {% include button.html text="Library data blog" link="https://blog.librarydata.uk" color="#349bc1" %}
 
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#ff5722', 'G2G23Y70N');kofiwidget2.draw();</script>
+All Libraries Hacked projects have received generous contributions from collaborators. All projects are open source and free to use and adapt. If you have any questions, [get in touch](/about).
 
-Libraries Hacked was founded by Dave in 2014, and the projects have received generous contributions from many collaborators. All projects are open source and free to use and adapt. If you have any questions, [get in touch](/about).
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#ff5722', 'G2G23Y70N');kofiwidget2.draw();</script>
 
 ### Flagship projects
 
@@ -20,7 +20,7 @@ Bigger projects, usually with their own website and regular maintenance.
 
 | Year | Project                                                        | Description                                                                                                          |
 | ---- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| 2025 | [Library activity dashboard](https://activity.librarydata.uk/) | A data dashboard to display on public library activity in England                                                    |
+| 2025 | [Library activity dashboard](https://activity.librarydata.uk/) | A data dashboard to display public library activity data for England                                                 |
 | 2022 | [Fine free libraries](https://www.finefreelibraries.uk)        | A website to track and promote libraries going fine-free in the UK                                                   |
 | 2021 | [Library books](https://librarybooks.uk)                       | A tool to search the book catalogues of all UK library services                                                      |
 | 2020 | [Libraries at home](https://www.librariesathome.co.uk)         | A postcode lookup service and aggregator of library services online content such as videos, blog posts, and podcasts |
@@ -34,11 +34,10 @@ Bigger projects, usually with their own website and regular maintenance.
 
 Hacks using library data.
 
-| Year | Project                                             | Description                                                                                  |
-| ---- | --------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| 2018 | [World library data](https://ifla.librarydata.uk)   | Displaying the IFLA Library map data in a data table                                         |
-| 2018 | [Disrupters](https://disbumptors.librarydata.uk)    | A twitter list of library disruptors displaying latest tweets and what they're talking about |
-| 2016 | [Wuthering hacks](https://newcastle.librarydata.uk) | A data dashboard for presenting Newcastle libraries open data                                |
+| Year | Project                                             | Description                                                   |
+| ---- | --------------------------------------------------- | ------------------------------------------------------------- |
+| 2018 | [World library data](https://ifla.librarydata.uk)   | Displaying the IFLA Library map data in a data table          |
+| 2016 | [Wuthering hacks](https://newcastle.librarydata.uk) | A data dashboard for presenting Newcastle libraries open data |
 
 ### Other collaborations
 
