@@ -6,17 +6,13 @@ Libraries Hacked is a project to promote open data, to help libraries publish th
 
 > &ldquo;Open data is data that anyone can access, use and share&rdquo;<br/> **Open Data Institute**: [What is open data and why should we care?](https://theodi.org/article/what-is-open-data-and-why-should-we-care/)
 
-Publishing openly licensed library data will ensure library services share data effectively, make better data-informed decisions, and enable innovation that can help the public and libraries.
+Publishing openly licensed data will ensure library services share data effectively, make data-informed decisions, and enable innovation that can help the public and libraries.
 
 {% include button.html text="Projects" link="/projects" color="#e0642c" %} {% include button.html text="Library data blog" link="https://blog.librarydata.uk" color="#349bc1" %}
 
-All Libraries Hacked projects have received generous contributions from collaborators. All projects are open source and free to use and adapt. If you have any questions, [get in touch](/about).
+Libraries Hacked projects have received generous time and expertise from collaborators. All projects are open source and free to use and adapt. If you have any questions, [see the about page](/about).
 
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#ff5722', 'G2G23Y70N');kofiwidget2.draw();</script>
-
-### Flagship projects
-
-Bigger projects, usually with their own website and regular maintenance.
+### Projects
 
 | Year | Project                                                        | Description                                                                                                          |
 | ---- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
