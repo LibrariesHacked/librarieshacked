@@ -4,18 +4,20 @@ title: Libraries Hacked
 
 Libraries Hacked is a project to promote open data, to help libraries publish their data, and to showcase projects using library data.
 
-> &ldquo;Open data is data that anyone can access, use and share&rdquo;<br/> **Open Data Institute**: [What is open data and why should we care?](https://theodi.org/article/what-is-open-data-and-why-should-we-care/)
+> &ldquo;Open data is data that anyone can access, use and share&rdquo;  
+> **Open Data Institute**: [What is open data and why should we care?](https://theodi.org/article/what-is-open-data-and-why-should-we-care/)
 
 Publishing openly licensed data will ensure library services share data effectively, help make data-informed decisions, and enable innovation that can better serve the public and library staff. See the library data blog for posts on libraries and open data.
 
-{% include button.html text="Library data blog" link="https://blog.librarydata.uk" color="#349bc1" %}
+{% include button.html text="Library data blog" link="https://blog.librarydata.uk" color="#2196f3" %}
 
 Libraries Hacked projects have received generous time and expertise from collaborators. All projects are open source and free to use and adapt. If you have any questions, [see the about page](/about).
 
-### Projects
+## Projects
 
 | Year | Project                                                        | Description                                                                                                          |
 | ---- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| 2026 | [LibraryCommons](https://www.librarycommons.org.uk/)           | A new digital home for UK public library information, locations, services, news, and data                            |
 | 2025 | [Library activity dashboard](https://activity.librarydata.uk/) | A data dashboard to display public library activity data for England                                                 |
 | 2022 | [Fine free libraries](https://www.finefreelibraries.uk)        | A website to track and promote libraries going fine-free in the UK                                                   |
 | 2021 | [Library books](https://librarybooks.uk)                       | A tool to search the book catalogues of all UK library services                                                      |
@@ -26,7 +28,7 @@ Libraries Hacked projects have received generous time and expertise from collabo
 | 2019 | [Create](https://create.librarydata.uk)                        | Tools for creating, publishing and using public library open data                                                    |
 | 2014 | [Data blog](https://blog.librarydata.uk)                       | Blog posts about library data                                                                                        |
 
-### Small data hacks
+## Small data hacks
 
 Hacks using library data.
 
@@ -35,7 +37,7 @@ Hacks using library data.
 | 2018 | [World library data](https://ifla.librarydata.uk)   | Displaying the IFLA Library map data in a data table          |
 | 2016 | [Wuthering hacks](https://newcastle.librarydata.uk) | A data dashboard for presenting Newcastle libraries open data |
 
-### Other collaborations
+## Other collaborations
 
 External blog posts, research, and other things with Libraries Hacked involvement.
 

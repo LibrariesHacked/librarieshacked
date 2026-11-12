@@ -3,23 +3,36 @@ title: false
 styles: true
 ---
 
+// Brand & Core Colours
 $backgroundColour: #ffffff !default;
+$surfaceColour: #f8fafc !default;
 $codeBackgroundColour: #fafafa !default;
 $featureBackgroundColour: #f9fafa !default;
 $accentColour: #2196f3 !default;
 
-// Text colours
+// Text Colours
 $headingColour: #455a64 !default;
 $bodyColour: #455a64 !default;
 $linkColour: #2196f3 !default;
 $hoverColour: #1976d2 !default;
 $focusColour: #ff5722 !default;
 $captionColour: #607d8b !default;
+$quoteTextColour: #37474f !default;
+$linkDarkColour: #0d47a1 !default;
 $white: #ffffff !default;
 
-.typeset blockquote p {
-  font-style: normal !important;
-}
+// Borders & Dividers
+$borderLight: #f1f5f9 !default;
+$borderMedium: #e2e8f0 !default;
+$borderMuted: #eceff1 !default;
+$timelineNodeBorder: #94a3b8 !default;
+
+// Component Metrics
+$timelineSpineWidth: 2px !default;
+$timelineYearWidth: 75px !default;
+$timelineNodeSize: 8px !default;
+$radiusSmall: 4px !default;
+$transitionSpeed: 0.15s ease !default;
 
 // Typography
 $bodytype: (
@@ -43,48 +56,245 @@ $monospacetype: (
   cap-height: 0.68
 ) !default;
 
-
 @import 'alembic';
 
-// Tables
+// Section Headings
+.typeset h2,
+.typeset h3 {
+  margin-top: 2.2rem;
+  margin-bottom: 0.6rem;
+  color: $headingColour;
+  font-weight: 700;
+}
+
+// Timeline Tables
 table {
+  width: 100%;
   border-collapse: collapse;
-  margin: 25px 0 30px 0;
-  line-height: 1.3 !important;
-  border: 2px solid $focusColour;
-  margin-bottom: 18px !important;
-}
+  margin: 1.25rem 0 2.5rem 0;
+  border: none;
+  font-size: 0.95rem;
+  line-height: 1.5 !important;
 
-table thead tr {
-  background-color: $focusColour;
-  color: #ffffff;
-  text-align: left;
-}
+  thead tr {
+    background: transparent;
+  }
 
-table th,
-table td {
-  padding: 12px 15px;
-}
+  th {
+    padding: 8px 14px 10px 14px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: normal;
+    color: $captionColour;
+    border-bottom: $timelineSpineWidth solid $borderMedium;
+    text-align: left;
+    background: transparent;
 
-table tbody tr {
-  border-bottom: 1px solid #dddddd;
-  line-height: 1.3 !important;
-}
+    &:first-child {
+      width: $timelineYearWidth;
+      text-align: right;
+      padding-right: 20px;
+      border-right: $timelineSpineWidth solid $borderMedium;
+    }
 
-table tbody tr:nth-of-type(even) {
-  background-color: $codeBackgroundColour;
-}
+    &:nth-child(2) {
+      padding-left: 20px;
+      width: 220px;
+    }
 
-// Blockquotes
-blockquote {
-  background-color: $codeBackgroundColour;
-  
-  p a {
-    text-shadow: none;
+    &:nth-child(3) {
+      padding-left: 14px;
+    }
+  }
+
+  td {
+    padding: 12px 14px;
+    vertical-align: top;
+    border-bottom: 1px solid $borderLight;
+    color: $bodyColour;
+
+    &:first-child {
+      width: $timelineYearWidth;
+      text-align: right;
+      padding-right: 20px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: $captionColour;
+      border-right: $timelineSpineWidth solid $borderMedium;
+      white-space: nowrap;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        right: -($timelineNodeSize / 2 + 1px);
+        top: 18px;
+        width: $timelineNodeSize;
+        height: $timelineNodeSize;
+        border-radius: 50%;
+        background: $white;
+        border: 2px solid $timelineNodeBorder;
+        transition: border-color $transitionSpeed, background-color $transitionSpeed;
+      }
+    }
+
+    &:nth-child(2) {
+      padding-left: 20px;
+      width: 220px;
+
+      a {
+        font-weight: 700;
+        color: $hoverColour;
+        text-decoration: none;
+        transition: color $transitionSpeed;
+
+        &:hover {
+          color: $linkDarkColour;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    &:nth-child(3) {
+      padding-left: 14px;
+    }
+  }
+
+  tbody tr {
+    transition: background-color $transitionSpeed;
+
+    &:hover {
+      background-color: $surfaceColour;
+
+      td:first-child::after {
+        border-color: $accentColour;
+        background-color: $accentColour;
+      }
+    }
   }
 }
 
+// Responsive Table Layout for Small Screens
+@media (max-width: 640px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    th:nth-child(2),
+    td:nth-child(2) {
+      width: auto;
+      min-width: 140px;
+    }
+  }
+}
+
+// Buttons
+.button {
+  border-radius: $radiusSmall;
+  font-weight: 600;
+  transition: opacity $transitionSpeed, background-color $transitionSpeed;
+
+  &:hover {
+    opacity: 0.92;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $focusColour;
+    outline-offset: 2px;
+  }
+}
+
+// Blockquotes - single unified callout box
+blockquote {
+  background-color: $surfaceColour;
+  border-left: 3px solid $accentColour;
+  padding: 0.9rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 0 $radiusSmall $radiusSmall 0;
+}
+
+.typeset blockquote p {
+  border-left: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-style: normal !important;
+  color: $quoteTextColour;
+  line-height: 1.6;
+
+  a {
+    text-shadow: none;
+    color: $hoverColour;
+    font-weight: 600;
+
+    &:hover {
+      color: $linkDarkColour;
+      text-decoration: underline;
+    }
+  }
+}
+
+// News list items
+.item--post {
+  padding: 1.2rem 0;
+  border-bottom: 1px solid $borderLight;
+
+  h2 a {
+    color: $headingColour;
+    text-decoration: none;
+    transition: color $transitionSpeed;
+
+    &:hover {
+      color: $linkColour;
+    }
+  }
+}
+
+// Post category tags
+.label--category {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background-color: $borderLight;
+  border-radius: $radiusSmall;
+  color: $captionColour;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      color: $linkColour;
+    }
+  }
+}
+
+// Figures and Captions
+.figure {
+  margin: 1.5rem 0;
+
+  .image {
+    border-radius: $radiusSmall;
+    border: 1px solid $borderMedium;
+  }
+
+  .caption {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: $captionColour;
+    line-height: 1.4;
+  }
+}
+
+// Footer
 footer {
-  background-color: $codeBackgroundColour;
-  padding: 20px;
+  background-color: $surfaceColour;
+  border-top: 1px solid $borderMuted;
+  padding: 24px 20px;
+  text-align: center;
 }
