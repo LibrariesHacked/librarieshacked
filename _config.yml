@@ -40,14 +40,23 @@ email: "info@librarieshacked.org"
 
 # Pagination
 paginate: 5
-paginate_path: blog/page:num
+paginate_path: news/page:num
 
 # Header nav
 navigation_header:
   - title: Home
     url: /
+  - title: News
+    url: /news/
   - title: About
     url: /about/
+
+# Collections
+collections:
+  posts:
+    title: News
+    output: true
+    description: "Press releases and announcements from Libraries Hacked"
 
 # Collection settings
 defaults:
@@ -56,6 +65,11 @@ defaults:
       type: "pages"
     values:
       layout: page # Set the default layout for pages
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
 
 navigation_footer:
   - title: Created by Libraries Hacked
