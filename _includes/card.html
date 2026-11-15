@@ -1,23 +1,24 @@
-<div class="subtle-card" style="border-top-color: {{ include.color | default: '#0284c7' }};">
+{% assign item_url = include.project_url | default: include.link | default: include.url %}
+<div class="subtle-card">
   {% if include.image %}
     <div class="card-media">
-      <a href="{{ include.url }}">
-        <img src="{{ include.image | relative_url }}" alt="{{ include.title }}" loading="lazy" />
+      <a href="{{ item_url }}" aria-label="{{ include.title }}">
+        <img src="{{ include.image | relative_url }}" alt="{{ include.title }} preview" loading="lazy" />
       </a>
     </div>
   {% endif %}
   <div class="card-body">
     <div class="card-header">
-      <h3 class="card-title"><a href="{{ include.url }}">{{ include.title }}</a></h3>
+      <h3 class="card-title"><a href="{{ item_url }}">{{ include.title }}</a></h3>
       {% if include.year %}<span class="card-meta">{{ include.year }}</span>{% endif %}
     </div>
     {% if include.tag %}
-      <span class="card-badge" style="background-color: {{ include.color | default: '#0284c7' }};">{{ include.tag }}</span>
+      <span class="card-badge card-badge--{{ include.tag | slugify }}">{{ include.tag }}</span>
     {% endif %}
     <p class="card-desc">{{ include.description }}</p>
-    {% if include.url %}
+    {% if item_url %}
       <div class="card-link">
-        <a href="{{ include.url }}">{{ include.link_text | default: "Explore project" }} &rarr;</a>
+        <a href="{{ item_url }}">{{ include.link_text | default: "Explore project" }} <span class="visually-hidden">({{ include.title }})</span> &rarr;</a>
       </div>
     {% endif %}
   </div>

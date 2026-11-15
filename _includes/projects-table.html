@@ -1,18 +1,20 @@
 {% assign project_type = include.type | default: "core" %}
 {% assign items = site.projects | where: "type", project_type | sort: "year" | reverse %}
 <table>
+  <caption class="visually-hidden">Libraries Hacked {{ project_type }} projects</caption>
   <thead>
     <tr>
-      <th>Year</th>
-      <th>Project</th>
-      <th>Description</th>
+      <th scope="col">Year</th>
+      <th scope="col">Project</th>
+      <th scope="col">Description</th>
     </tr>
   </thead>
   <tbody>
     {% for item in items %}
+      {% assign item_url = item.project_url | default: item.link | default: item.url %}
       <tr>
         <td>{{ item.year }}</td>
-        <td><a href="{{ item.url }}">{{ item.title }}</a></td>
+        <td><a href="{{ item_url }}">{{ item.title }}</a></td>
         <td>{{ item.description }}</td>
       </tr>
     {% endfor %}

@@ -1,13 +1,14 @@
 ---
 title: "Library activity dashboard"
 year: 2025
-url: "https://activity.librarydata.uk/"
+project_url: "https://activity.librarydata.uk/"
+link: "https://activity.librarydata.uk/"
 description: "An interactive data dashboard visualising public library activity data and sector trends across England."
 type: "core"
 image: "/assets/images/projects/activity-dashboard-bristol.png"
 featured: true
 tag: "Data Dashboard"
-color: "#0d9488"
+color: "#115e59"
 order: 2
 ---
 
