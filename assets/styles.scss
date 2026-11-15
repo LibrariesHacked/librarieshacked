@@ -6,25 +6,25 @@ styles: true
 // Brand & Core Colours
 $backgroundColour: #ffffff !default;
 $surfaceColour: #f8fafc !default;
-$codeBackgroundColour: #fafafa !default;
-$featureBackgroundColour: #f9fafa !default;
-$accentColour: #2196f3 !default;
+$codeBackgroundColour: #f1f5f9 !default;
+$featureBackgroundColour: #f8fafc !default;
+$accentColour: #0284c7 !default;
 
 // Text Colours
-$headingColour: #455a64 !default;
-$bodyColour: #455a64 !default;
-$linkColour: #2196f3 !default;
-$hoverColour: #1976d2 !default;
-$focusColour: #ff5722 !default;
-$captionColour: #607d8b !default;
-$quoteTextColour: #37474f !default;
-$linkDarkColour: #0d47a1 !default;
+$headingColour: #0f172a !default;
+$bodyColour: #334155 !default;
+$linkColour: #0284c7 !default;
+$hoverColour: #0369a1 !default;
+$focusColour: #ea580c !default;
+$captionColour: #64748b !default;
+$quoteTextColour: #1e293b !default;
+$linkDarkColour: #0c4a6e !default;
 $white: #ffffff !default;
 
 // Borders & Dividers
 $borderLight: #f1f5f9 !default;
 $borderMedium: #e2e8f0 !default;
-$borderMuted: #eceff1 !default;
+$borderMuted: #cbd5e1 !default;
 $timelineNodeBorder: #94a3b8 !default;
 
 // Component Metrics
@@ -36,27 +36,61 @@ $transitionSpeed: 0.15s ease !default;
 
 // Typography
 $bodytype: (
-  font-family: 'Roboto, serif',
+  font-family: '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
   regular: 400,
-  bold: 700,
+  bold: 600,
   italic: italic,
-  cap-height: 0.75
+  cap-height: 0.72
 ) !default;
 
 $headingtype: (
-  font-family: '"Roboto", serif',
-  regular: 400,
+  font-family: '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+  regular: 600,
   bold: 700,
-  cap-height: 0.75
+  cap-height: 0.72
 ) !default;
 
 $monospacetype: (
-  font-family: 'Menlo, monospace',
+  font-family: '"JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace',
   regular: 400,
   cap-height: 0.68
 ) !default;
 
 @import 'alembic';
+
+// Strictly Flat - eliminate all box-shadows, text-shadows, and 3D effects
+*,
+*::before,
+*::after {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+// Eliminate all uppercase transformations across site
+header,
+nav,
+table,
+th,
+td,
+button,
+.button,
+.label,
+.label--category,
+.typeset {
+  text-transform: none !important;
+  letter-spacing: normal;
+}
+
+// Header Navigation
+header nav a {
+  font-weight: 500;
+  text-transform: none;
+  transition: color $transitionSpeed;
+
+  &:hover {
+    color: $accentColour;
+  }
+}
 
 // Section Headings
 .typeset h2,
@@ -65,13 +99,24 @@ $monospacetype: (
   margin-bottom: 0.6rem;
   color: $headingColour;
   font-weight: 700;
+  letter-spacing: -0.01em;
+  text-transform: none;
+}
+
+// Lead paragraph styling for top of pages
+.typeset > p:first-of-type {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: $headingColour;
+  margin-top: 0.5rem;
+  margin-bottom: 1.25rem;
 }
 
 // Timeline Tables
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1.25rem 0 2.5rem 0;
+  margin: 1.25rem 0 2rem 0;
   border: none;
   font-size: 0.95rem;
   line-height: 1.5 !important;
@@ -81,10 +126,10 @@ table {
   }
 
   th {
-    padding: 8px 14px 10px 14px;
+    padding: 10px 14px;
     font-size: 0.85rem;
     font-weight: 600;
-    text-transform: none;
+    text-transform: none !important;
     letter-spacing: normal;
     color: $captionColour;
     border-bottom: $timelineSpineWidth solid $borderMedium;
@@ -109,7 +154,7 @@ table {
   }
 
   td {
-    padding: 12px 14px;
+    padding: 14px 14px;
     vertical-align: top;
     border-bottom: 1px solid $borderLight;
     color: $bodyColour;
@@ -130,7 +175,7 @@ table {
         content: "";
         position: absolute;
         right: -($timelineNodeSize / 2 + 1px);
-        top: 18px;
+        top: 20px;
         width: $timelineNodeSize;
         height: $timelineNodeSize;
         border-radius: 50%;
@@ -145,13 +190,13 @@ table {
       width: 220px;
 
       a {
-        font-weight: 700;
-        color: $hoverColour;
+        font-weight: 600;
+        color: $headingColour;
         text-decoration: none;
         transition: color $transitionSpeed;
 
         &:hover {
-          color: $linkDarkColour;
+          color: $accentColour;
           text-decoration: underline;
         }
       }
@@ -159,6 +204,8 @@ table {
 
     &:nth-child(3) {
       padding-left: 14px;
+      font-size: 0.92rem;
+      line-height: 1.55;
     }
   }
 
@@ -191,14 +238,24 @@ table {
   }
 }
 
-// Buttons
+// Flat Buttons
 .button {
+  display: inline-block;
+  padding: 0.55rem 1.15rem;
   border-radius: $radiusSmall;
+  font-size: 0.9rem;
   font-weight: 600;
+  text-decoration: none;
+  text-transform: none !important;
+  letter-spacing: normal;
+  cursor: pointer;
+  line-height: 1.4;
+  border: 1px solid transparent;
   transition: opacity $transitionSpeed, background-color $transitionSpeed;
 
   &:hover {
     opacity: 0.92;
+    transform: none !important;
   }
 
   &:focus-visible {
@@ -207,10 +264,13 @@ table {
   }
 }
 
-// Blockquotes - single unified callout box
+// Blockquotes - single flat callout box for quotes and announcements
 blockquote {
   background-color: $surfaceColour;
   border-left: 3px solid $accentColour;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
   padding: 0.9rem 1.25rem;
   margin: 1.5rem 0;
   border-radius: 0 $radiusSmall $radiusSmall 0;
@@ -223,6 +283,7 @@ blockquote {
   font-style: normal !important;
   color: $quoteTextColour;
   line-height: 1.6;
+  font-size: 0.95rem;
 
   a {
     text-shadow: none;
@@ -252,14 +313,14 @@ blockquote {
   }
 }
 
-// Post category tags
+// Post category tags - flat, normal case
 .label--category {
   display: inline-block;
-  padding: 0.15rem 0.5rem;
-  font-size: 0.75rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+  padding: 0.2rem 0.55rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: none !important;
+  letter-spacing: normal;
   background-color: $borderLight;
   border-radius: $radiusSmall;
   color: $captionColour;
@@ -294,7 +355,7 @@ blockquote {
 // Footer
 footer {
   background-color: $surfaceColour;
-  border-top: 1px solid $borderMuted;
+  border-top: 1px solid $borderMedium;
   padding: 24px 20px;
   text-align: center;
 }

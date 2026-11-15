@@ -2,18 +2,13 @@
 title: Libraries Hacked
 ---
 
-Libraries Hacked is a project to promote open data, to help libraries publish their data, and to showcase projects using library data.
+Libraries Hacked promotes open data, develops digital tools and prototypes, and showcases innovative uses of UK public library data.
 
-> &ldquo;Open data is data that anyone can access, use and share&rdquo;  
-> **Open Data Institute**: [What is open data and why should we care?](https://theodi.org/article/what-is-open-data-and-why-should-we-care/)
-
-Publishing openly licensed data will ensure library services share data effectively, help make data-informed decisions, and enable innovation that can better serve the public and library staff. See the library data blog for posts on libraries and open data.
-
-{% include button.html text="Library data blog" link="https://blog.librarydata.uk" color="#2196f3" %}
-
-Libraries Hacked projects have received generous time and expertise from collaborators. All projects are open source and free to use and adapt. If you have any questions, [see the about page](/about).
+> **Latest announcement:** Libraries Hacked has launched [LibraryCommons](https://www.librarycommons.org.uk/) &mdash; a new open digital home for UK public library locations, services, news, and data. [Read the announcement](/news/2026/11/12/libraries-hacked-launches-librarycommons/).
 
 ## Projects
+
+A chronological timeline of core projects and tools created by Libraries Hacked. All projects are open source and free to adapt.
 
 | Year | Project                                                        | Description                                                                                                          |
 | ---- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -28,24 +23,11 @@ Libraries Hacked projects have received generous time and expertise from collabo
 | 2019 | [Create](https://create.librarydata.uk)                        | Tools for creating, publishing and using public library open data                                                    |
 | 2014 | [Data blog](https://blog.librarydata.uk)                       | Blog posts about library data                                                                                        |
 
-## Small data hacks
+For exploratory prototypes, small hacks, and sector research, explore the [complete projects archive](/projects/).
 
-Hacks using library data.
+> &ldquo;Open data is data that anyone can access, use and share&rdquo;  
+> **Open Data Institute**: [What is open data and why should we care?](https://theodi.org/article/what-is-open-data-and-why-should-we-care/)
 
-| Year | Project                                             | Description                                                   |
-| ---- | --------------------------------------------------- | ------------------------------------------------------------- |
-| 2018 | [World library data](https://ifla.librarydata.uk)   | Displaying the IFLA Library map data in a data table          |
-| 2016 | [Wuthering hacks](https://newcastle.librarydata.uk) | A data dashboard for presenting Newcastle libraries open data |
+Publishing openly licensed data ensures library services share data effectively, make data-informed decisions, and enable innovation that better serves the public and library staff.
 
-## Other collaborations
-
-External blog posts, research, and other things with Libraries Hacked involvement.
-
-| Year | Project                                                                                                       | Description                                                                                                                                                               |
-| ---- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2023 | [Missing libraries: towns in England without a public library](https://blog.librarydata.uk/missing-libraries) | Research on the towns in England without a library                                                                                                                        |
-| 2022 | [Frictionless Data - Libraries Hacked](https://frictionlessdata.io/blog/2022/02/07/libraries-hacked/)         | A post written for the Frictionless Data project (from the Open Knowledge Foundation) about library data schemas.                                                         |
-| 2021 | [Libraries and High Streets](https://dcmslibraries.blog.gov.uk/2021/05/20/libraries-and-high-streets/)        | A DCMS blog about libraries and high streets which links to Libraries Hacked work                                                                                         |
-| 2019 | [Library data schemas](https://schema.librarydata.uk)                                                         | A sector led and DCMS hosted public library sector project to design schemas for open library data                                                                        |
-| 2018 | [Libraries on Twitter](https://twitter.librarydata.uk)                                                        | Displaying latest tweets from various library account lists, all compiled by [Library Cactus](https://twitter.com/SarahHLib/lists) on Twitter                             |
-| 2017 | [Voyage of the Data Treader](https://voyage.datatreaders.co.uk)                                               | Library data unconferences organised with Claire from Plymouth and Aude from Newcastle library services. Held in 2017 at Liverpool Library and 2019 at Manchester Library |
+For more information on the project and how to get involved, see the [about page](/about/) or visit the [library data blog](https://blog.librarydata.uk).
