@@ -114,44 +114,52 @@ header nav a {
   }
 }
 
-// Section Headings
-.typeset h2,
-.typeset h3 {
-  margin-top: 2.2rem;
-  margin-bottom: 0.6rem;
+// Section Headings - tight, clean vertical margins
+.typeset h2 {
+  margin-top: 1.85rem;
+  margin-bottom: 0.5rem;
   color: $headingColour;
   font-weight: 700;
   letter-spacing: -0.01em;
   text-transform: none;
 }
 
-// Lead paragraph styling for top of pages
+.typeset h3 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.4rem;
+  color: $headingColour;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-transform: none;
+}
+
+// Lead paragraph styling for top of pages - tightened spacing
 .typeset > p:first-of-type {
   font-size: 1.15rem;
   line-height: 1.6;
   color: $headingColour;
-  margin-top: 0.5rem;
-  margin-bottom: 1.25rem;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
 }
 
-// Custom Component: Subtle Announcement Callout
+// Custom Component: Block Colour Announcement Callout (No thin grey borders)
 .subtle-announcement {
   display: flex;
   align-items: center;
   gap: 0.85rem;
-  background-color: $surfaceColour;
-  border: 1px solid $borderMedium;
-  border-left: 4px solid $accentColour;
+  background-color: #f0f9ff; // Solid block colour
+  border: none;
+  border-left: 5px solid $accentColour; // Solid block accent bar
   border-radius: $radiusSmall;
-  padding: 0.85rem 1.15rem;
-  margin: 1.5rem 0 2rem 0;
+  padding: 0.9rem 1.2rem;
+  margin: 0.75rem 0 1.25rem 0; // Tight margins
 
   .announcement-badge {
     font-size: 0.75rem;
     font-weight: 600;
-    background-color: #e0f2fe;
-    color: #0369a1;
-    padding: 0.2rem 0.55rem;
+    background-color: $accentColour; // Solid blue block
+    color: #ffffff;
+    padding: 0.25rem 0.6rem;
     border-radius: $radiusSmall;
     white-space: nowrap;
     flex-shrink: 0;
@@ -159,21 +167,21 @@ header nav a {
 
   .announcement-body {
     font-size: 0.92rem;
-    color: $bodyColour;
+    color: #0f172a;
     line-height: 1.5;
 
     strong {
-      color: $headingColour;
+      color: #0f172a;
     }
 
     a {
-      font-weight: 600;
-      color: $accentColour;
-      text-decoration: none;
+      font-weight: 700;
+      color: $hoverColour;
+      text-decoration: underline;
       margin-left: 0.35rem;
 
       &:hover {
-        text-decoration: underline;
+        color: $linkDarkColour;
       }
     }
   }
@@ -185,42 +193,70 @@ header nav a {
   }
 }
 
-// Custom Component: Subtle Flat Cards Grid
+// Custom Component: Block Colour Cards Grid (No thin grey borders)
 .subtle-cards-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-  margin: 1rem 0 2rem 0;
+  gap: 1.25rem;
+  margin: 0.6rem 0 1.5rem 0; // Tight top and bottom margins
 
   @media (max-width: 640px) {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
 }
 
 .subtle-card {
-  background: $white;
-  border: 1px solid $borderMedium;
+  background-color: #f8fafc; // Solid block background
+  border: none; // Completely remove thin grey borders
+  border-top: 4px solid $accentColour; // Solid block colour top accent
   border-radius: $radiusSmall;
   padding: 1.15rem 1.25rem;
   display: flex;
   flex-direction: column;
-  transition: border-color $transitionSpeed, background-color $transitionSpeed;
+  overflow: hidden;
+  transition: background-color $transitionSpeed;
 
   &:hover {
-    border-color: $accentColour;
-    background-color: $surfaceColour;
+    background-color: #f1f5f9; // Flat solid block shift on hover
+  }
+
+  .card-media {
+    margin: -1.15rem -1.25rem 0.85rem -1.25rem;
+    overflow: hidden;
+    background-color: #e2e8f0;
+    aspect-ratio: 16 / 9;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border: none;
+      transition: opacity $transitionSpeed;
+    }
+
+    a:hover img {
+      opacity: 0.92;
+    }
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
   }
 
   .card-header {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.4rem;
   }
 
   .card-title {
-    font-size: 1.05rem;
-    font-weight: 600;
+    font-size: 1.08rem;
+    font-weight: 700;
     margin: 0 !important;
     color: $headingColour;
 
@@ -230,39 +266,39 @@ header nav a {
 
       &:hover {
         color: $accentColour;
+        text-decoration: underline;
       }
     }
   }
 
   .card-meta {
-    font-size: 0.82rem;
-    font-weight: 500;
+    font-size: 0.85rem;
+    font-weight: 600;
     color: $captionColour;
   }
 
   .card-badge {
     align-self: flex-start;
     font-size: 0.72rem;
-    font-weight: 500;
-    padding: 0.15rem 0.5rem;
+    font-weight: 600;
+    padding: 0.2rem 0.55rem;
     border-radius: $radiusSmall;
-    background: $borderLight;
-    color: $captionColour;
-    margin-bottom: 0.65rem;
-    border: 1px solid $borderMedium;
+    color: #ffffff; // High contrast white text on solid block badge
+    margin-bottom: 0.75rem;
+    border: none;
   }
 
   .card-desc {
-    font-size: 0.9rem;
-    line-height: 1.5;
+    font-size: 0.92rem;
+    line-height: 1.55;
     color: $bodyColour;
-    margin: 0 0 0.85rem 0 !important;
+    margin: 0 0 1rem 0 !important;
     flex-grow: 1;
   }
 
   .card-link {
     margin-top: auto;
-    font-size: 0.85rem;
+    font-size: 0.88rem;
 
     a {
       font-weight: 600;
@@ -281,7 +317,7 @@ header nav a {
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1.25rem 0 2rem 0;
+  margin: 1rem 0 1.75rem 0;
   border: none;
   font-size: 0.95rem;
   line-height: 1.5 !important;
@@ -428,15 +464,15 @@ table {
   }
 }
 
-// Blockquotes - single flat callout box for quotes and announcements
+// Blockquotes - single flat block callout box for quotes
 blockquote {
   background-color: $surfaceColour;
-  border-left: 3px solid $accentColour;
+  border-left: 4px solid $accentColour;
   border-top: none;
   border-right: none;
   border-bottom: none;
   padding: 0.9rem 1.25rem;
-  margin: 1.5rem 0;
+  margin: 1.25rem 0;
   border-radius: 0 $radiusSmall $radiusSmall 0;
 }
 

@@ -1,7 +1,11 @@
+{% assign post = site.posts.first %}
+{% if post %}
 <div class="subtle-announcement">
-  <span class="announcement-badge">{{ include.badge | default: "Announcement" }}</span>
+  <span class="announcement-badge">{{ include.badge | default: "Latest news" }}</span>
   <div class="announcement-body">
-    <strong>{{ include.title }}</strong> {{ include.text }}
-    {% if include.link %}<a href="{{ include.link }}">{{ include.link_text | default: "Read announcement &rarr;" }}</a>{% endif %}
+    <strong>{{ include.title | default: post.title }}</strong> &mdash;
+    {{ include.text | default: post.excerpt | strip_html | strip }}
+    <a href="{{ include.link | default: post.url | relative_url }}">{{ include.link_text | default: "Read announcement &rarr;" }}</a>
   </div>
 </div>
+{% endif %}

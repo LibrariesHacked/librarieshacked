@@ -1,13 +1,24 @@
-<div class="subtle-card">
-  <div class="card-header">
-    <h3 class="card-title"><a href="{{ include.url }}">{{ include.title }}</a></h3>
-    {% if include.year %}<span class="card-meta">{{ include.year }}</span>{% endif %}
-  </div>
-  {% if include.tag %}<span class="card-badge">{{ include.tag }}</span>{% endif %}
-  <p class="card-desc">{{ include.description }}</p>
-  {% if include.url %}
-    <div class="card-link">
-      <a href="{{ include.url }}">{{ include.link_text | default: "Explore project" }} &rarr;</a>
+<div class="subtle-card" style="border-top-color: {{ include.color | default: '#0284c7' }};">
+  {% if include.image %}
+    <div class="card-media">
+      <a href="{{ include.url }}">
+        <img src="{{ include.image | relative_url }}" alt="{{ include.title }}" loading="lazy" />
+      </a>
     </div>
   {% endif %}
+  <div class="card-body">
+    <div class="card-header">
+      <h3 class="card-title"><a href="{{ include.url }}">{{ include.title }}</a></h3>
+      {% if include.year %}<span class="card-meta">{{ include.year }}</span>{% endif %}
+    </div>
+    {% if include.tag %}
+      <span class="card-badge" style="background-color: {{ include.color | default: '#0284c7' }};">{{ include.tag }}</span>
+    {% endif %}
+    <p class="card-desc">{{ include.description }}</p>
+    {% if include.url %}
+      <div class="card-link">
+        <a href="{{ include.url }}">{{ include.link_text | default: "Explore project" }} &rarr;</a>
+      </div>
+    {% endif %}
+  </div>
 </div>

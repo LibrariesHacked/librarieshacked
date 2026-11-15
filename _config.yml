@@ -90,6 +90,10 @@ collections:
     title: News
     output: true
     description: "Press releases and announcements from Libraries Hacked"
+  projects:
+    title: Projects
+    output: false
+    description: "Projects and prototypes created by Libraries Hacked"
 
 # Collection settings
 defaults:
