@@ -1,5 +1,21 @@
 <footer>
-  <div id="wcb" class="carbonbadge"></div>
+  <div class="footer-container">
+    {% if site.navigation_footer %}
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <ul class="footer-links">
+          {% for item in site.navigation_footer %}
+            <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
+
+    <p class="footer-copy">
+      Libraries Hacked &bull; Published under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Licence</a>.
+    </p>
+
+    <div id="wcb" class="carbonbadge"></div>
+  </div>
   <script
     src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js"
     defer

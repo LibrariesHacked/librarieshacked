@@ -1,0 +1,15 @@
+<div class="subtle-cards-grid">
+  {% for item in site.data.featured_projects %}
+    <div class="subtle-card">
+      <div class="card-header">
+        <h3 class="card-title"><a href="{{ item.url }}">{{ item.title }}</a></h3>
+        <span class="card-meta">{{ item.year }}</span>
+      </div>
+      <span class="card-badge">{{ item.tag }}</span>
+      <p class="card-desc">{{ item.description }}</p>
+      <div class="card-link">
+        <a href="{{ item.url }}">{{ item.link_text | default: "Explore project" }} &rarr;</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>

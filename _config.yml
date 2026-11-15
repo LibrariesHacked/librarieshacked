@@ -6,6 +6,8 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - "*.ps1"
+  - "*.py"
 
 # Set plugins
 plugins:
@@ -20,23 +22,52 @@ plugins:
   - jemoji
   - jekyll-remote-theme
 
-author: DaveBathnes
+# Site settings & SEO
+lang: "en-GB"
+timezone: "Europe/London"
+url: "https://www.librarieshacked.org"
+baseurl: ""
+title: "Libraries Hacked"
+short_name: "Libraries Hacked"
+description: "Promoting open data, developing digital tools, and showcasing prototypes for UK public libraries."
+permalink: pretty
+logo: "/assets/images/logo_small.webp"
+image: "/assets/images/og-image.png"
+repo: "https://github.com/davebathnes/librarieshacked"
+email: "info@librarieshacked.org"
+excerpt_separator: "<!-- more -->"
+
+# Author & Social metadata
+author:
+  name: "Dave Rowe"
+  email: "info@librarieshacked.org"
+
+twitter:
+  username: librarieshacked
+  card: summary_large_image
+
 social:
   name: Libraries Hacked
   links:
     - https://www.instagram.com/librarieshacked
-    - https://www.linkedin.com/in/rowedave
+    - https://www.linkedin.com/company/librarieshacked/
     - https://github.com/librarieshacked
 
-# Site settings
-url: "https://www.librarieshacked.org"
-baseurl: ""
-title: "Libraries Hacked"
-description: "Promoting open data and digital prototypes in libraries"
-permalink: pretty
-logo: "/assets/images/logo_small.webp"
-repo: "https://github.com/davebathnes/librarieshacked"
-email: "info@librarieshacked.org"
+# Site favicons & manifest icons (Alembic)
+theme_color: "#0284c7"
+favicons:
+  16: "/assets/favicons/favicon-16x16.png"
+  32: "/assets/favicons/favicon-32x32.png"
+  96: "/assets/favicons/favicon-96x96.png"
+  120: "/assets/favicons/apple-touch-icon.png"
+  144: "/assets/favicons/android-chrome-144x144.png"
+  180: "/assets/favicons/apple-touch-icon.png"
+  192: "/assets/favicons/android-chrome-192x192.png"
+  512: "/assets/favicons/android-chrome-512x512.png"
+
+# Sass compression
+sass:
+  style: compressed
 
 # Pagination
 paginate: 5
@@ -66,7 +97,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: page # Set the default layout for pages
+      layout: page
   - scope:
       path: ""
       type: "posts"
@@ -74,23 +105,29 @@ defaults:
       layout: post
 
 navigation_footer:
-  - title: Created by Libraries Hacked
-    url: https://www.librarieshacked.org
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Privacy"
+    url: /privacy/
+  - title: "Accessibility"
+    url: /accessibility/
+  - title: "GitHub"
+    url: https://github.com/librarieshacked
 
-social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  LinkedIn: https://www.linkedin.com/in/rowedave
+social_links:
+  LinkedIn: https://www.linkedin.com/company/librarieshacked/
   GitHub: https://github.com/librarieshacked
+  Instagram: https://www.instagram.com/librarieshacked
   RSS: https://blog.librarydata.uk/feed.xml
 
-sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
-  Twitter: "#0d94e7"
-  facebook: "#3B5998"
+sharing_links:
+  LinkedIn: true
+  Twitter: "#0284c7"
   Email: true
 
-# Load custom fonts from fonts.google.com etc
-#
-# TIP: Try to keep the number of urls as low to reduce the performance cost
-#      If multiple fonts can be requested in a single url opt for this
+# Fonts
 fonts:
   preconnect_urls:
     - https://fonts.gstatic.com

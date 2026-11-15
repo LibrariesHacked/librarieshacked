@@ -1,0 +1,7 @@
+<div class="subtle-announcement">
+  <span class="announcement-badge">{{ include.badge | default: "Announcement" }}</span>
+  <div class="announcement-body">
+    <strong>{{ include.title }}</strong> {{ include.text }}
+    {% if include.link %}<a href="{{ include.link }}">{{ include.link_text | default: "Read announcement &rarr;" }}</a>{% endif %}
+  </div>
+</div>

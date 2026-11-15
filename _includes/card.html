@@ -1,0 +1,13 @@
+<div class="subtle-card">
+  <div class="card-header">
+    <h3 class="card-title"><a href="{{ include.url }}">{{ include.title }}</a></h3>
+    {% if include.year %}<span class="card-meta">{{ include.year }}</span>{% endif %}
+  </div>
+  {% if include.tag %}<span class="card-badge">{{ include.tag }}</span>{% endif %}
+  <p class="card-desc">{{ include.description }}</p>
+  {% if include.url %}
+    <div class="card-link">
+      <a href="{{ include.url }}">{{ include.link_text | default: "Explore project" }} &rarr;</a>
+    </div>
+  {% endif %}
+</div>

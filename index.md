@@ -4,9 +4,13 @@ title: Libraries Hacked
 
 Libraries Hacked promotes open data, develops digital tools and prototypes, and showcases innovative uses of UK public library data.
 
-> **Latest announcement:** Libraries Hacked has launched [LibraryCommons](https://www.librarycommons.org.uk/) &mdash; a new open digital home for UK public library locations, services, news, and data. [Read the announcement](/news/2026/11/12/libraries-hacked-launches-librarycommons/).
+{% include announcement.html badge="Latest news" title="LibraryCommons Launched:" text="A new open digital home for UK public library locations, services, news, and data." link="/news/2026/11/12/libraries-hacked-launches-librarycommons/" link_text="Read announcement &rarr;" %}
 
-## Projects
+## Featured projects
+
+{% include featured-cards.html %}
+
+## Project timeline
 
 A chronological timeline of core projects and tools created by Libraries Hacked. All projects are open source and free to adapt.
 
